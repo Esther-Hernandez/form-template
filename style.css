@@ -1,0 +1,98 @@
+body {
+  min-height: 1000px;
+  padding-top: 70px;
+}
+
+.title-logo {
+    height: 50px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.user {
+    margin-top: 15px;
+}
+
+.navbar-default {
+    background: #48a453;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: rgba(158, 210, 233, 034);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgba(158, 210, 233, 034);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(158, 210, 233, 034);
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: rgba(158, 210, 233, 034);
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: rgba(158, 210, 233, 034);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(158, 210, 233, 034);
+}
+
+
+@media screen and (max-width: 760px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+    }
+}
+
+.dropdown-header {
+    font-style: italic;
+}
+
+.form-container {
+    margin-top: 60px;
+    overflow: auto;
+    background-color: rgba(167, 214, 235, 0.31);
+    border-radius: 5px;
+}
+
+.form-header {
+    max-width: 100%;
+    height: 76px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-size: 30px;
+}
+
+.form-header>p {
+    padding-top: 20px;
+}
+
+.form-type {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    height: 300px;
+}
+
+
